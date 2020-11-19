@@ -1,0 +1,48 @@
+/*
+    TOP TO BOTTOM
+*/
+
+body {
+    background-color: #d4ded4a6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list-container {
+    width: 500px;
+    max-width: 90%;
+    border: 1px solid black;
+    background-color: #f2f5f2;
+    box-shadow: 0 0 10px 2px black;
+}
+
+.update-container {
+    width: 500px;
+    max-width: 90%;
+    border: 1px solid black;
+    background-color: #f2f5f2;
+    box-shadow: 0 0 10px 2px black;
+}
+
+.delete-container {
+    width: 500px;
+    max-width: 90%;
+    border: 1px solid black;
+    background-color: #f2f5f2;
+    box-shadow: 0 0 10px 2px black;
+}
+
+#edit-icon {
+    color: black;
+}
+
+#edit-icon:hover {
+    color: rgba(0, 0, 0, 0.562);
+}
+
+#delete-icon {
+    color: red;
+}
+
+#delete-icon:hover {
+    color: rgba(255, 0, 0, 0.521);
+}

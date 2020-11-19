@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="container update-container mt-4 text-center">
+
+        <h3 class="my-3">Update Task</h3>
+
+        <form action="" method="post" class="my-4">
+            {% csrf_token %}
+            <div class="my-3">
+                <span>Title: </span>
+                {{ form.title }}
+            </div>
+            <div class="my-3">
+                <span>Complete: </span>
+                {{ form.complete }}
+            </div>
+            <a href="{% url 'index' %}" class="btn btn-info">Cancel</a>
+            <input class="my-3 btn btn-success" type="submit" value="Update">
+        </form>
+
+    </div>
+
+{% endblock %}
